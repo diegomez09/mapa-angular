@@ -6,7 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mapa.component.css']
 })
 export class MapaComponent implements OnInit {
-
+ 
+  position = {
+    lat :20.634711,
+    lng : -103.382414
+  }
   constructor() { }
 
   ngOnInit(): void {

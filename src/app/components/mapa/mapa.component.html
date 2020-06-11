@@ -1,6 +1,11 @@
 <mat-card>
-    <mat-card-tittle>Mapa</mat-card-tittle>
+    <mat-card-title>Mapa</mat-card-title>
     <mat-card-content>
-        XYZ
+    <!--key AIzaSyBmUn4jkt_qY2jMBtQhPwvF4juU-LtX-l0-->    
+    <google-map height="500px"
+    width="100%"
+    [center]="position">
+    <map-marker [position]="position"></map-marker>
+ </google-map>
     </mat-card-content>
 </mat-card>
